@@ -1,2 +1,2 @@
 # Docker
-Repo for Docker projects
+Repo for Docker projects & practice
