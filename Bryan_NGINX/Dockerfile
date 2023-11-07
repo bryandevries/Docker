@@ -2,6 +2,9 @@
 
 FROM nginx:latest
 
+RUN apt update
+RUN apt upgrade -y
+
 RUN rm /usr/share/nginx/html/index.html
 
 COPY /index.html /usr/share/nginx/html
