@@ -1,10 +1,10 @@
 To run this container first build a image with
 `docker build -t demo-volume .`
 
-Then we build a volume to use
+Then build a volume to use
 `docker volume create volume1`
 
-Then we run the container
+Then run the container
 `docker run -d -p 8080:80 -v volume1:/usr/share/nginx/html demo-volume`
 
 
